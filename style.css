@@ -1,0 +1,207 @@
+*{
+   margin:0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+body {
+   height: auto;
+   background-color: #1d1d24;;
+}
+
+.dropbtn {
+   
+   width: 49px;
+   background-color: #22222b;
+   padding: 16px;
+   font-size: 19px;
+   border: none;
+}
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   background-color: #22222b;
+}
+
+.dropdown .dropdown-content a {
+   font: 23px sans-serif;
+}
+
+.dropdown-content {
+   display: none;
+   position: relative;
+   background-color: #22222b;
+   width: 100%;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+}
+
+.dropdown-content a {
+   color: rgb(255, 255, 255);
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+}
+
+   .dropdown-content a:hover {
+  background-color: #1d1d24;
+} 
+
+.about {
+   width: 65%;
+   height: auto;
+   margin: 0 auto;
+   padding-bottom: 20px;
+   text-align: center;
+  }
+
+  .about .logo img {
+   width: 130px;
+   height: 140px;
+   border-radius: 50%;
+   box-shadow:  rgb(255, 255, 255) 0px 0px 0px 5px;
+  }
+
+  .about .logo {
+    margin-top: 35px;
+  }
+
+  .about  h1 {
+    color: #ffff;
+    margin-top: 3px;
+    font-weight: bolder;font: sans-serif;
+  }
+
+  .about p {
+    font: 20px sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .about a:hover {
+    background-color: #3d3a3a;
+  }
+
+ .about a {
+    border-radius: 5px;
+    font: 16px sans-serif;
+    text-align: center;
+    padding: 5px;
+    background-color: #757575;
+    font-weight: bold; 
+    height: auto;
+    text-decoration: none; 
+    color: #ffffff;
+ }
+
+
+
+  .contact, .techskills, .softskills, .hobbies, .languages, .experience, .education {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #22222b;
+    row-gap: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    color:#ffffff;
+    border-radius: 5px;
+  }
+
+  .contact {
+    top:50px;
+  }
+
+  .contact i {
+    width: 20px;
+    height: 20px;
+  }
+
+  .contact a {
+    padding-left: 7px; 
+    font: 18px sans-serif;
+    text-decoration: none; 
+    font-weight: bold;
+  }
+
+  .contact ul {
+
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    row-gap: 5px;
+    
+    
+  }
+
+  .contact ul li {
+
+    width: auto;
+    height: auto;
+    
+  }
+
+  .contact ul li i {
+    color: #ababd8;
+  }
+
+  .techskills {
+    top: 100px;
+  }
+
+  .softskills {
+    top: 150px;
+  }
+
+  .hobbies {
+    top: 200px;
+  }
+
+  .languages {
+    top: 250px;
+  }
+
+  .experience {
+    top: 300px;
+  }
+
+  .experience span, .experience h4, .education span, .education h4 {
+    font: 20px sans-serif;
+  }
+
+  .education {
+    top: 350px;
+  }
+
+  .contact:hover, .languages:hover, .education:hover, .techskills:hover, .softskills:hover, .hobbies:hover, .experience:hover{
+    transform: scale(1.05);
+  }
+
+  .footer {
+    position: relative;
+    top: 400px;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    background-color: #22222b;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px -25px 20px -20px;
+    color: #ffffff;
+  }
+  
+  @media screen and (max-width: 900px){
+  .contact:hover, .languages:hover, .education:hover, .techskills:hover, .softskills:hover, .hobbies:hover, .experience:hover{ 
+    transform: none;
+    }
+    }
+
+   
+
+    
+ 
+ 
