@@ -1,6 +1,4 @@
 
-
-
 let dropdown = document.querySelector('.dropdown-content');
 let dropbutton = document.querySelector('.dropbtn');
 let bars = document.querySelector('#bars');
@@ -12,8 +10,6 @@ xmark.style.display = "none";
 
 dropbutton.addEventListener('click', (e) => {
 
-    
-
     if(dropdown.style.display == "none") {
         
         xmark.style.display = "block";
@@ -22,16 +18,12 @@ dropbutton.addEventListener('click', (e) => {
         dropbutton.style.background = "#1d1d24";
     
     } else {
-
-       
+        
         xmark.style.display = "none";
         bars.style.display = "block";
         dropdown.style.display = "none";
         dropbutton.style.background = "none";
     }
-
-  
-
 })
 
 
